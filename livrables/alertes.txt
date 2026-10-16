@@ -1,0 +1,18 @@
+10202 | Medium (Low) | Absence of Anti-CSRF Tokens | 1 occ. | https://app:5000
+10038 | Medium (High) | Content Security Policy (CSP) Header Not Set | 5 occ. | https://app:5000
+10020 | Medium (Medium) | Missing Anti-clickjacking Header | 1 occ. | https://app:5000
+10099 | Medium (Medium) | Source Code Disclosure - SQL | 1 occ. | https://app:5000/login
+90022 | Low (Medium) | Application Error Disclosure | 1 occ. | https://app:5000/login
+90004 | Low (Medium) | Cross-Origin-Embedder-Policy Header Missing or Invalid | 1 occ. | https://app:5000
+90004 | Low (Medium) | Cross-Origin-Opener-Policy Header Missing or Invalid | 1 occ. | https://app:5000
+90004 | Low (Medium) | Cross-Origin-Resource-Policy Header Missing or Invalid | 4 occ. | https://app:5000
+10063 | Low (Medium) | Permissions Policy Header Not Set | 5 occ. | https://app:5000/app/app.py
+10036 | Low (High) | Server Leaks Version Information via "Server" HTTP Response Header Field | 5 occ. | https://app:5000
+10035 | Low (High) | Strict-Transport-Security Header Not Set | 5 occ. | https://app:5000
+10021 | Low (Medium) | X-Content-Type-Options Header Missing | 4 occ. | https://app:5000
+10111 | Informational (High) | Authentication Request Identified | 1 occ. | https://app:5000/login
+10027 | Informational (Medium) | Information Disclosure - Suspicious Comments | 2 occ. | https://app:5000/login?__debugger__=yes&cmd=resource&f=debugger.js
+10109 | Informational (Medium) | Modern Web Application | 2 occ. | https://app:5000
+10049 | Informational (Medium) | Non-Storable Content | 1 occ. | https://app:5000/login
+10015 | Informational (Low) | Re-examine Cache-control Directives | 2 occ. | https://app:5000
+10049 | Informational (Medium) | Storable and Cacheable Content | 5 occ. | https://app:5000/index.css
